@@ -1,0 +1,39 @@
+    public void PrintResult()
+    {
+        Console.WriteLine("Результат:");
+
+        
+        {
+            Console.WriteLine("Система не имеет решений");
+            return;
+        }
+ 
+
+        char variableName = 'a';
+        for (int j = 1; j < TopVariables.Count; j++)
+        {
+            if (TopVariables[j] != null)
+            {
+                Console.WriteLine($"{TopVariables[j].TrimStart('-')} = {variableName}");
+                variableName++;
+            }
+        }
+
+        for (int i = 0; i < Rows; i++)
+        {
+            if (LeftVariables[i] != "0=")
+            {
+                Console.Write($"{LeftVariables[i]} = {Matrix[i, 0]}");
+                variableName = 'a';
+                for (int j = 1; j < Columns; j++)
+                {
+                    if (TopVariables[j] != null)
+                    {
+                        Console.Write($" + {Matrix[i, j]}{variableName}");
+                        variableName++;
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+    }
