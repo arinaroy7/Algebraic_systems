@@ -1,0 +1,15 @@
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\bin\Debug\net8.0\Simplex_console.exe
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\bin\Debug\net8.0\Simplex_console.deps.json
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\bin\Debug\net8.0\Simplex_console.runtimeconfig.json
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\bin\Debug\net8.0\Simplex_console.dll
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\bin\Debug\net8.0\Simplex_console.pdb
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\Simplex_console.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\Simplex_console.AssemblyInfoInputs.cache
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\Simplex_console.AssemblyInfo.cs
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\Simplex_console.csproj.CoreCompileInputs.cache
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\Simplex_console.sourcelink.json
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\Simplex_console.dll
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\refint\Simplex_console.dll
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\Simplex_console.pdb
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\Simplex_console.genruntimeconfig.cache
+D:\Учеба\4 курс Родионов\Git\Algebraic_systems\Simplex_console\obj\Debug\net8.0\ref\Simplex_console.dll
