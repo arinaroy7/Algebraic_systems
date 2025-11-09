@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Simplex_console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+afaf93e328362efcad3371b02f8d44ac61f6a6e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+61ddd35ffc6504fa02960635c78ad17546735daf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Simplex_console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Simplex_console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

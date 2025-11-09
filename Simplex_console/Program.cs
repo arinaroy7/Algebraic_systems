@@ -107,13 +107,13 @@ namespace JordanConsole
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите размер матрицы A (m x n):");
-            Console.Write("число строк m: ");
+            Console.WriteLine("Введите количество строк и столбцов матрицы:");
+            Console.Write("Число строк m: ");
             int m = int.Parse(Console.ReadLine().Trim());
-            Console.Write("число столбцов n: ");
+            Console.Write("Число столбцов n: ");
             int n = int.Parse(Console.ReadLine().Trim());
 
-            Console.WriteLine("Введите матрицу A построчно (каждая строка через пробел из n чисел):");
+            Console.WriteLine("Введите значения матрицы построчно:");
             var A = new List<List<double>>();
             for (int i = 0; i < m; i++)
             {
@@ -156,7 +156,7 @@ namespace JordanConsole
             }
 
             m = m + 1;
-            Console.WriteLine("измененная матрица A:");
+            Console.WriteLine("Измененная матрица:");
             PrintMatrix(A, rowLabels: aRow, colLabels: aStolbec);
 
             double e = 0.00001;
@@ -185,7 +185,7 @@ namespace JordanConsole
 
                 if (countOfPositiv < 1)
                 {
-                    Console.WriteLine("Задача неразрешима f стремиться к бесконечности");
+                    Console.WriteLine("f стремиться к бесконечности");
                     t = false;
                     break;
                 }
@@ -240,7 +240,7 @@ namespace JordanConsole
                 aStolbec[sIndex] = element;
 
                 A = JordanExclusionStep(A, kIndex, sIndex);
-                Console.WriteLine("Матрица A после жардановых исключений:");
+                //Console.WriteLine("Матрица после шага жардановых исключений:");
                 PrintMatrix(A, rowLabels: aRow, colLabels: aStolbec);
 
                 int countOfNonOtric = 0;
@@ -254,7 +254,7 @@ namespace JordanConsole
                 {
                     if (aRow.SequenceEqual(aRow1))
                     {
-                        Console.WriteLine("Оптимальный план исходной задачи:");
+                        Console.WriteLine("Оптимальный план:");
                         var exit = new double[m - 2];
                         for (int j = 0; j < m - 2; j++)
                         {
